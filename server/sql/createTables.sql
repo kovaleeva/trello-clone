@@ -1,0 +1,5 @@
+CREATE TABLE boards (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(256) NOT NULL,
+    created_on TIMESTAMP NOT NULL DEFAULT now()
+);
